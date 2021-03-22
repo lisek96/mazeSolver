@@ -116,6 +116,7 @@ public class Graph {
                 if(r==8 && c==9) continue;
                 if(r==9 && c==8) continue;
                 g.blockCell(r, c);
+                //x
             }
 
             for (int i = 0; i < g.size; i++) {
